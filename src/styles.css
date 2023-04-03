@@ -1,0 +1,112 @@
+body {
+  background-image: url("../media/images/olives.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: linear-gradiant (to right, #937451, #c4b29f);
+}
+.container {
+  max-width: 800px;
+  background-color: rgba(204, 209, 172, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+.locationButton {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #606c38;
+  border-radius: 40px;
+  color: #606c38;
+  background-color: #e9edc9;
+  transition: all 150ms ease-in-out;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.locationButton:hover {
+  opacity: 0.7;
+}
+
+#currentButton {
+  text-align: left;
+  margin: 10px;
+  padding: 5px 5px;
+  border: 1px solid #e9edc9;
+  border-radius: 40px;
+  color: #e9edc9;
+  background-color: #939b78;
+  transition: all 150ms ease-in-out;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#currentButton:hover {
+  opacity: 0.9;
+}
+
+.f-cButton {
+  display: block;
+  text-align: right;
+  margin: 10px;
+  padding: 7px 10px;
+  border: 1px solid #e9edc9;
+  border-radius: 40px;
+  color: #e9edc9;
+  background-color: #606c38;
+  transition: all 150ms ease-in-out;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.f-cButton:hover {
+  opacity: 0.9;
+}
+
+.content {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  color: #505a2e;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.mainCurrentWeatherPic {
+  display: block;
+  margin: 0px auto;
+  width: 30%;
+}
+
+#currentWeather {
+  display: block;
+  text-align: center;
+  color: #505a2e;
+  font-size: 30px;
+}
+
+#weatherDesctiption {
+  text-transform: capitalize;
+}
+
+.weatherStats {
+  display: block;
+  text-align: center;
+  color: #505a2e;
+}
+.todaysWeather {
+  margin: 20px;
+}
+.thisWeek {
+  margin: 20px;
+}
+.reccomended {
+  text-align: center;
+  padding: 20px;
+  color: #505a2e;
+}
+.footer {
+  text-align: center;
+  color: #ebdfd2;
+  font-family: monospace;
+  font-size: 17px;
+  margin: 4px 0;
+}
