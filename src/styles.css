@@ -111,7 +111,7 @@ body {
   margin: 4px 0;
 }
 
-#github {
+.github {
   text-align: center;
   color: #ebdfd2;
   font-family: monospace;
